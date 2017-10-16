@@ -1,6 +1,6 @@
 It's often required to fix versions of the packages against which a piece of software is developed.
-This small utility allows to do it by generating a `package.json.fixed` file
-containing current versions of the employed packages.
+This small utility allows to do it for `Node.js` projects.
+The utility generates a `package.json.fixed` file containing current versions of the employed packages.
 
 ## Usage
 
