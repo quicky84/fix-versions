@@ -1,0 +1,27 @@
+{
+  "name": "fix-versions",
+  "version": "0.0.1",
+  "description": "Generate 'package.json.fixed' with currently used versions of packages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/melanz/graham-scan.git"
+  },
+  "keywords": [],
+  "author": "Victor Ermolaev",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.34"
+  },
+  "bin": {
+    "fix-versions": "dist/index.js"
+  }
+}
